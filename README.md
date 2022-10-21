@@ -30,14 +30,19 @@ Stack and resources used on this structure creation.
 
 ## 🛠 Scripts
 
-- `yarn start` - start the app. open in [local](http://localhost:3000).
-- `yarn generate` - execute the script to generate new components.
-- `yarn build` - execute the script to build the application.
-- `yarn test` - execute the Jest test suite.
-- `yarn eject` - This is a one-way operation. Once you eject, you can’t go back - remove the single build dependency from your project.
-- `yarn commit` - commit changes with Husky and commitizen | type `git commit` works too.
-- `yarn lint` - use prettier to verify files on your app.
-- `yarn format` - use prettier to format files on your app.
+| Action                              | Usage (npm)        | Usage (yarn)    |
+| ----------------------------------- | ------------------ | --------------- |
+| Start development mode              | `npm start`        | `yarn start`    |
+| Buold the app                       | `npm run build`    | `yarn build`    |
+| Generate new components             | `npm run generate` | `yarn generate` |
+| Execute the Jest test suite         | `npm run test`     | `yarn test`     |
+| Eject the app\*                     | `npm run eject`    | `yarn eject`    |
+| commit with Husky and commitizen\*  | `npm run commit`   | `yarn commit`   |
+| use prettier to verify files on app | `npm run lint`     | `yarn lint`     |
+| use prettier to format files on app | `npm run format`   | `yarn format`   |
+
+- `yarn eject` - \* This is a one-way operation. Once you eject, you can’t go back - remove the single build dependency from your project.
+- `yarn commit` - \* commit with Husky and commitizen | type `git commit` works too.
 
 ## ⚙️ How to use the structure
 
